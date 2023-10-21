@@ -8,8 +8,6 @@
 body {
 	width: 100vw;
 	height: 100vh;
-	display: flex;
-	justify-content: space-between;
 	font-family: Poppins;
 }
 
@@ -53,19 +51,21 @@ header .sitemap {
 .buttons {
 	display: flex;
 	gap: 40px;
-    cursor: pointer;
+    
 }
 
 .buttons .log-in:hover{
 background-color: white;
 color: black;
 border: 1px solid #0126b3;
+cursor: pointer;
 
 }
 
 .buttons .sign-up:hover{
     background-color: #0126b3;
     color: white;
+    cursor: pointer;
   
 }
 
@@ -135,4 +135,9 @@ li a:active{
 
 #search::placeholder {
 	padding-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
 }
