@@ -51,6 +51,7 @@ header .sitemap {
 .buttons {
 	display: flex;
 	gap: 40px;
+    padding-right: 80px;
     
 }
 
@@ -76,6 +77,7 @@ cursor: pointer;
 	justify-content: flex-start;
 	align-items: center;
 	padding-top: 15px;
+    padding-left: 20px;
 }
 
 .log-in {
@@ -100,6 +102,7 @@ cursor: pointer;
 	border-style: none;
 	border: 1px solid #0126b3;
 }
+
 
 .logo > p {
 	font-size: 12px;
@@ -140,4 +143,38 @@ li a:active{
 .main {
     display: flex;
     justify-content: space-between;
+    padding-top: 30px;   
+}
+
+.details {
+    max-width: 40%;
+    padding-left: 40px;
+}
+
+.photo{
+    flex-grow: 0.4;
+}
+
+.details h1, h3, p{
+    padding-bottom: 30px;
+}
+
+
+.read-more {
+	font-size: 24px;
+	font-weight: 500;
+	font-family: Poppins;
+	padding: 0px 40px;
+	border-radius: 20px;
+	color: #ffffff;
+	background-color: #0126b3;
+	border-style: none;
+}
+
+.read-more:hover{
+
+background-color: white;
+color: black;
+border: 1px solid #0126b3;
+cursor: pointer;
 }
