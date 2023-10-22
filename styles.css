@@ -178,6 +178,10 @@ color: black;
 border: 1px solid #0126b3;
 cursor: pointer;
 }
+footer{
+	position: fixed;
+	
+}
 
 .footer-container{
 	background: rgb(1,38,179);
